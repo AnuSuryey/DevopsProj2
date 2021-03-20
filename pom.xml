@@ -6,6 +6,14 @@
   <artifactId>devops</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  
+  <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.19.1</version>
+        </plugin>
+  </plugins>
 
   <name>devops</name>
   <url>http://maven.apache.org</url>
